@@ -190,7 +190,3 @@ body {
 .brand {
 	font-size: 18px !important;
 }
-
-#mainbar .thumbnails .tfirst .caption p{
-	min-height:20px;
-}
