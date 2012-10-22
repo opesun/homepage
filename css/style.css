@@ -190,3 +190,12 @@ body {
 .brand {
 	font-size: 18px !important;
 }
+
+.thumbnail_content {
+	height: 20px;
+	overflow:hidden;
+}
+
+.subtitle h3{
+	min-height:40px;
+}

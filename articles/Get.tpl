@@ -63,7 +63,7 @@
 							</a>
 							<div class="caption">
 								<h4>{{.title}}</h4>
-								<p>{{.content}}</p>
+								<p class="thumbnail_content" title="{{.content}}">{{.content}}</p>
 								<p><a href="/articles/{{._id}}" class="btn btn-large">more</a></p>
 							</div>
 						</li>
