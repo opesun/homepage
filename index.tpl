@@ -28,7 +28,7 @@
 						</div>
 					</li>
 					<li class="span4">
-						<a href="/articles?tag=furnitures" class="thumbnail">
+						<a href="/furnitures" class="thumbnail">
 								<img src="/template/img/carpenter3.jpg" alt="">
 						</a>
 						<div class="caption">
@@ -61,36 +61,20 @@
 				<div id="myCarousel" class="carousel slide">
 					<!-- Carousel items -->
 					<div class="carousel-inner">
-						<div class="active item">
-							<img src="/template/img_content/460/1.JPG" alt="">
-						</div>
-						<div class="item">
-							<img src="/template/img_content/460/2.JPG" alt="">
-						</div>
-						<div class="item">
-							<img src="/template/img_content/460/3.JPG" alt="">
-						</div>
-						<div class="item">
-							<img src="/template/img_content/460/4.JPG" alt="">
-						</div>
-						<div class="item">
-							<img src="/template/img_content/460/5.JPG" alt="">
-						</div>
-						<div class="item">
-							<img src="/template/img_content/460/6.JPG" alt="">
-						</div>
-						<div class="item">
-							<img src="/template/img_content/460/7.JPG" alt="">
-						</div>
-						<div class="item">
-							<img src="/template/img_content/460/8.JPG" alt="">
-						</div>
-						<div class="item">
-							<img src="/template/img_content/460/9.JPG" alt="">
-						</div>
-						<div class="item">
-							<img src="/template/img_content/460/10.JPG" alt="">
-						</div>
+						{{$c := counter}}
+						{{$sl := get_list "articles" "tag" "slider"}}
+						{{$list := elem $sl 0}}
+						{{range $list}}
+							{{$id := decode_id ._id}}
+							{{if .sliderpics}}
+								{{range .sliderpics}}
+									<div class="{{if $c.Eq 0}}active{{end}} item">
+										<img src="/uploads/articles/{{$id}}/sliderpics/{{.}}" alt="">
+									</div>
+									{{$c.Inc}}
+								{{end}}
+							{{end}}
+						{{end}}
 					</div>
 					<!-- Carousel nav -->
 					<a class="carousel-control left cbtn" href="#myCarousel" data-slide="prev">&lsaquo;</a>

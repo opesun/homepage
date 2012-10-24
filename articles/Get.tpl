@@ -1,12 +1,9 @@
 {{require main_header.t}}
-{{require small_header.t}}
+	{{$furn := false}}
+	{{$title := .main_noun}}
+	{{require small_header.t}}
 	<div id="above-nonmain" class="container">
-		<div class="row-fluid">	
-			<ul class="breadcrumb">
-				<li><a class="label label-important" href="/">Home</a> <span class="divider">/</span></li>
-				<li><a href="/articles">Articles</a> <span class="divider">/</span></li>
-			</ul>
-		</div>
+		{{require breadcrumb.t}}
 		<div class="row-fluid">
 			<div class="span3" id="sidebar">
 				<ul class="thumbnails">
@@ -63,7 +60,7 @@
 							</a>
 							<div class="caption">
 								<h4>{{.title}}</h4>
-								<p>{{.content}}</p>
+								<p class="thumbnail_content" title="{{.content}}">{{.content}}</p>
 								<p><a href="/articles/{{._id}}" class="btn btn-large">more</a></p>
 							</div>
 						</li>
