@@ -9,7 +9,9 @@
 				</div>
 				<div class="row-fluid">
 					<div class="span8 title">
-						<h1 class="pr">{{if is_map .main}}{{.main.title}}{{else}}{{title .main_noun}}{{end}}</h1>
+							<h1 class="pr">
+								{{title $title}}
+							</h1>
 					</div>
 					<div class="row-fluid">
 						<div class="span12">
