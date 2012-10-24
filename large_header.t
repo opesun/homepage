@@ -19,7 +19,7 @@
 				<div class="row left-border">
 					<div class="span1"></div>
 					<div class="span11">
-						<h3>we love to create, be it <a href="/software">software</a>, <a href="/furnitures">furnitures</a> or <a href="/events">experiences</a></h3>
+						<h3>we love to create, be it <a href="/articles?tag=it">software</a>, <a href="/articles?tag=furnitures">furnitures</a> or <a href="articles?tag=events">experiences</a></h3>
 					</div>
 				</div>
 			</div>
