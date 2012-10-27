@@ -25,5 +25,9 @@
 				{{end}}
 			{{end}}
 		{{end}}
+		{{if .form.search}}
+			<li><a href="/articles">Articles</a> <span class="divider">/</span></li>
+			<li class="active">Search <span class="divider">/</span></li>
+		{{end}}
 	</ul>
 </div>

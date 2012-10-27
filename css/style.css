@@ -60,7 +60,7 @@ h5 a {
 	box-shadow:0 0 10px rgba(0,0,0,0.5);
 }
 .small-hero .ribbon{
-	top:115px !important;
+	top:124px !important;
 }
 .ribbon.right{
 	right:-42px;
@@ -198,4 +198,8 @@ body {
 
 .subtitle h3{
 	min-height:40px;
+}
+#small-logo{
+	width:140px;
+	height:140px;
 }
