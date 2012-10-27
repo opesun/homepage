@@ -65,7 +65,7 @@
 						{{$sl := get_list "articles" "tag" "slider"}}
 						{{$list := elem $sl 0}}
 						{{range $list}}
-							{{$id := decode_id ._id}}
+							{{$id := ._id}}
 							{{if .sliderpics}}
 								{{range .sliderpics}}
 									<div class="{{if $c.Eq 0}}active{{end}} item">

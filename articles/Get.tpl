@@ -22,7 +22,7 @@
 				{{if .form.search}}
 					<div class="row-fluid">
 						<div class="span12">
-								<h4>Your search: "{{range .form.search}}{{.}}{{end}}"</h4>
+								<h4>Your search: "{{.form.search}}"</h4>
 								{{if .main1.Count}}
 									<p>
 										{{.main1.Count}} matches.
@@ -30,7 +30,7 @@
 									<p></p>
 									<form class="search-box" action="/articles" method="get">
 										<div class="input-append">
-											<input id="appendedInputButton" class="span11" name="search" type="text" value="{{range .form.search}}{{.}}{{end}}">
+											<input id="appendedInputButton" class="span11" name="search" type="text" value="{{.form.search}}">
 											<button class="btn" type="submit">Search</button>
 										</div>
 									</form>
@@ -39,7 +39,7 @@
 										<p></p>
 										<form class="search-box" action="/articles" method="get">
 											<div class="input-append">
-												<input id="appendedInputButton" class="span11" name="search" type="text" value="{{range .form.search}}{{.}}{{end}}">
+												<input id="appendedInputButton" class="span11" name="search" type="text" value="{{.form.search}}">
 												<button class="btn" type="submit">Search</button>
 											</div>
 										</form>
@@ -56,7 +56,7 @@
 					{{range .main}}
 						<li class="span4 {{if $c.EveryX 3}}tfirst{{end}}">
 							<a href="/articles/{{._id}}" class="thumbnail">
-								<img src="/uploads/articles/{{decode_id ._id}}/pics/{{.preview}}" alt="">
+								<img src="/uploads/articles/{{._id}}/pics/{{.preview}}" alt="">
 							</a>
 							<div class="caption">
 								<h4>{{.title}}</h4>

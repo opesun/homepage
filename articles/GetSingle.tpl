@@ -45,8 +45,8 @@
 						{{$c := counter}}
 						{{range .main.pics}}
 							<li class="span4{{if $c.EveryX 3}} tfirst{{end}}">
-								<a class="thumbnail fancybox-thumb" rel="gallery1" id="single_1" href="/uploads/articles/{{decode_id $id}}/big_pics/{{.}}">
-									<img src="/uploads/articles/{{decode_id $id}}/pics/{{.}}" alt="" />
+								<a class="thumbnail fancybox-thumb" rel="gallery1" id="single_1" href="/uploads/articles/{{$id}}/big_pics/{{.}}">
+									<img src="/uploads/articles/{{$id}}/pics/{{.}}" alt="" />
 								</a>
 							</li>
 							{{$c.Inc}}

@@ -10,18 +10,18 @@
 				<li><a href="/furnitures">Furnitures</a> <span class="divider">/</span></li>
 				<li><a href="/articles?subtag={{.main.subtag}}">{{title .main.subtag}}</a> <span class="divider">/</span></li>
 			{{else}}
-				<li><a href="/articles?tag={{.main.tag}}">{{title .main.tag}}</a> <span class="divider">/</span></li>
+				{{if .main.tag}}
+					<li><a href="/articles?tag={{.main.tag}}">{{title .main.tag}}</a> <span class="divider">/</span></li>
+				{{end}}
 			{{end}}
 			<li class="active">{{.main.title}} <span class="divider">/</span></li>
 		{{else}}
 			{{if .form.tag}}
-				{{$e := elem .form.tag 0}}
-				<li><a class="active" href="/articles?tag={{$e}}">{{title $e}}</a> <span class="divider">/</span></li>
+				<li><a class="active" href="/articles?tag={{.form.tag}}">{{title .form.tag}}</a> <span class="divider">/</span></li>
 			{{else}}
 				{{if .form.subtag}}
 					<li><a href="/furnitures">Furnitures</a> <span class="divider">/</span></li>
-					{{$e := elem .form.subtag 0}}
-					<li><a class="active" href="/articles?tag={{$e}}">{{title $e}}</a> <span class="divider">/</span></li>
+					<li><a class="active" href="/articles?tag={{.form.subtag}}">{{title .form.subtag}}</a> <span class="divider">/</span></li>
 				{{end}}
 			{{end}}
 		{{end}}
