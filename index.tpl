@@ -4,13 +4,8 @@
 		<div class="row-fluid">
 			<div class="span3" id="sidebar">
 				<li class="span12">
-					<h4>Lorem Ipsum</h4>
-					<p>
-						A Lorem Ipsum egy egyszerû szövegrészlete, szövegutánzata a betûszedõ és nyomdaiparnak. A Lorem Ipsum az 1500-as évek óta standard szövegrészletként szolgált az iparban; mikor egy ismeretlen nyomdász összeállított
-					</p>
-					<p>
-						a betûkészletét és egy példa-könyvet vagy szöveget nyomott papírra, ezt használta. Nem csak 5 évszázadot élt túl, de az elektronikus betûkészleteknél is változatlanul megmaradt. Az 1960-as években népszerûsítették a Lorem Ipsum részleteket
-					</p>	
+					<h4>{{.loc.ope.who_are_we}}</h4>
+					{{html .loc.ope.front_desc}}	
 				</li>
 			</div>
 			<div class="span9" id="mainbar">
@@ -33,9 +28,9 @@
 						</a>
 						<div class="caption">
 							<h3>Bútorok</h3>
-							<p>
-								A Lorem Ipsum egy egyszeru szövegrészlete, szövegutánzata a betuszedo és nyomdaiparnak.
-							</p>
+								<p>
+									Cégünk több évtizedes szakmai múltra tekint vissza, a hazai prémium kategóriás bútorgyártás piacán.
+								</p>
 							<p><a href="/articles?tag=furnitures" class="btn btn-large">tovább</a></p>
 						</div>
 					</li>
@@ -84,12 +79,26 @@
 			<div class="span6">
 				<ul class="thumbnails">
 					<li class="span12">
-						<h4 class="tardfix">A Lorem Ipsum egy egyszerû szövegrészlete, szövegutánzata</h4>
-						<p>
-							A Lorem Ipsum egy egyszerû szövegrészlete, szövegutánzata a betûszedõ és nyomdaiparnak. A Lorem Ipsum az 1500-as évek óta standard szövegrészletlította a betûkészletét és egy példa-könyvet vagy szöveget nyomott papírra, ezt használta. Nem csak 5 évszázadot élt túl, de az elektronikus betûkészleteknél is változatlanul megmaradt. Az 1960-as években népszerûsítették a Lorem Ipsum részleteket magukbafoglaló Letraset lapokkal, és legutóbb softwarekkel mint például az Aldus Pagemaker.
+						<h4 class="tardfix">Álmai konyháját álom minőséggel megvalósítjuk!</h4>
+						<p>					
+							Ha szeretné megtalálni az Ön számára ideális konyhabútort, bútort de az előregyártott kész termékek sem méretben sem pedig stílusban nem illenek elképzeléséhez,
+							(nem is beszélve a minőségről és a studiók által kimondott irreális árról!) akkor jó helyen jár!
+							Cégünk teljes mértékben kielégíti az Ön egyedi igényeit a lehető legjobb minőségben és mindezt garantáltan a <strong>legalacsonyabb áron.</strong> 
 						</p>
 						<p>
-							A Lorem Ipsum egy egyszerû szövegrészlete, szövegutánzata a betûszedõ és nyomdaiparnak. t vagy szöveget nyomott papírra, de az elektronikus betûkészleteknél is változatlanul megmaradt. Az 1960-as években népszerûsítették a Lorem Ipsum részleteket magukbafoglaló Letraset lapokkal, és legutóbb softwarekkel mint például az Aldus Pagemaker.
+							Az egyedi konyhaszekrények mellett vállaljuk lakóépületek berendezését (előszobafalak, gardrobók, szekrénysorok) illetve üzlethelységek komplett beépítését, köz -és magánintézmények akár <strong>támogatás útján megnyert sztendereinek lebonyolítását</strong> is. 
+						</p>
+						<p>
+							<strong>Sikereinket több tényezőnek köszönhetjük:</strong>
+						</p>
+						<p>
+						Teljes egészébben magyar tulajdonnal bíró, nagy hangsúlyt fektető pontos határidővel dolgozó, kimagasló gyártási minőséggel bíró vállalkozás vagyunk. Nagy hangsúlyt fektetünk alapanyagaink és alkatrészeink kimagasló minőségére.
+						</p>
+						<p>
+							<strong>Termékeinkre 3 év garanciát vállalunk</strong>
+						</p>
+						<p>
+							Ha felkeltettük érdeklődést, kérje <strong>ingyenes</strong> árajánlatunkat akár egy 3 dimenziós látványtervvel egybekötve!
 						</p>
 					</li>
 				</ul>

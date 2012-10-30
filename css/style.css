@@ -203,3 +203,12 @@ body {
 	width:140px;
 	height:140px;
 }
+
+.under-subcat{
+	padding-top:1em; 
+	border-top:2px solid whiteSmoke;
+}
+
+.adv{
+	border-bottom:2px solid whiteSmoke;
+}

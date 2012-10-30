@@ -9,67 +9,58 @@
 		{{require breadcrumb.t}}
 		<div class="row-fluid">
 			<div class="span3" id="sidebar">
-				<li class="span12">
-					<h4>Lorem Ipsum</h4>
-					<p>
-						A Lorem Ipsum egy egyszerû szövegrészlete, szövegutánzata a betûszedõ és nyomdaiparnak. A Lorem Ipsum az 1500-as évek óta standard szövegrészletként szolgált az iparban; mikor egy ismeretlen nyomdász összeállított
-					</p>
-					<p>
-						a betûkészletét és egy példa-könyvet vagy szöveget nyomott papírra, ezt használta. Nem csak 5 évszázadot élt túl, de az elektronikus betûkészleteknél is változatlanul megmaradt. Az 1960-as években népszerûsítették a Lorem Ipsum részleteket
-					</p>	
-				</li>
+				{{require sidebar.t}}
 			</div>
 			<div class="span9" id="mainbar">
+				<h5>Tekintse meg referenciáinkat és higgyen a szemének.</h5>
+				<br />
 				<ul class="thumbnails">
 					<li class="span4">
-						<a href="/articles?subtag=kitchen" class="thumbnail">
-							<img src="/template/img/it.jpg" alt="">
+						<a href="/articles?subtag=custom-kitchens" class="thumbnail">
+							<img src="/template/img/costum.jpg" alt="">
 						</a>
 						<div class="caption">
-							<h3>Kitchen</h3>
-							<p>
-								A Lorem Ipsum egy egyszeru szövegrészlete, szövegutánzata a betuszedo és nyomdaiparnak.
-							</p>
-							<p><a href="/articles?tag=it" class="btn btn-large">tovább</a></p>
+							<h5>Egyedi konyhaszekrények</h5>
+							<p><a href="/articles?subtag=custom-kitchens" class="btn btn-large">tovább</a></p>
 						</div>
 					</li>
 					<li class="span4">
-						<a href="/articles?subtag=kitchen" class="thumbnail">
-							<img src="/template/img/it.jpg" alt="">
+						<a href="/articles?subtag=wardrobes" class="thumbnail">
+							<img src="/template/img/wardrobe.jpg" alt="">
 						</a>
 						<div class="caption">
-							<h3>Kitchen</h3>
-							<p>
-								A Lorem Ipsum egy egyszeru szövegrészlete, szövegutánzata a betuszedo és nyomdaiparnak.
-							</p>
-							<p><a href="/articles?tag=it" class="btn btn-large">tovább</a></p>
+							<h5>Gardróbok, szekrények</h5>
+							<p><a href="/articles?subtag=wardrobes" class="btn btn-large">tovább</a></p>
 						</div>
 					</li>
 					<li class="span4">
-						<a href="/articles?subtag=kitchen" class="thumbnail">
-							<img src="/template/img/it.jpg" alt="">
+						<a href="/articles?subtag=institutions" class="thumbnail">
+							<img src="/template/img/shop.jpg" alt="">
 						</a>
 						<div class="caption">
-							<h3>Kitchen</h3>
-							<p>
-								A Lorem Ipsum egy egyszeru szövegrészlete, szövegutánzata a betuszedo és nyomdaiparnak.
-							</p>
-							<p><a href="/articles?tag=it" class="btn btn-large">tovább</a></p>
-						</div>
-					</li>
-					<li class="span4 tfirst">
-						<a href="/articles?subtag=kitchen" class="thumbnail">
-							<img src="/template/img/it.jpg" alt="">
-						</a>
-						<div class="caption">
-							<h3>Kitchen</h3>
-							<p>
-								A Lorem Ipsum egy egyszeru szövegrészlete, szövegutánzata a betuszedo és nyomdaiparnak.
-							</p>
-							<p><a href="/articles?tag=it" class="btn btn-large">tovább</a></p>
+							<h5>Intézmények, üzlethelységek</h5>
+							<p><a href="/articles?subtag=institutions" class="btn btn-large">tovább</a></p>
 						</div>
 					</li>
 				</ul>
+				<div class="row-fluid under-subcat">
+					<div class="span4">
+						<p>
+							
+						</p>
+					</div>	
+					<div class="span4">	
+						<p>
+							
+						</p>
+						<p>
+							
+						</p>
+					</div>
+					<div class="span4">
+						
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

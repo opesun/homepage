@@ -21,7 +21,7 @@
 			{{else}}
 				{{if .form.subtag}}
 					<li><a href="/furnitures">Furnitures</a> <span class="divider">/</span></li>
-					<li><a class="active" href="/articles?tag={{.form.subtag}}">{{title .form.subtag}}</a> <span class="divider">/</span></li>
+					<li><a class="active" href="/articles?subtag={{.form.subtag}}">{{title .form.subtag}}</a> <span class="divider">/</span></li>
 				{{end}}
 			{{end}}
 		{{end}}

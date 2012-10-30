@@ -6,17 +6,7 @@
 		{{require breadcrumb.t}}
 		<div class="row-fluid">
 			<div class="span3" id="sidebar">
-				<ul class="thumbnails">
-					<li class="span12">
-						<h4>Lorem Ipsum</h4>
-						<p>
-							A Lorem Ipsum egy egyszeru szövegrészlete, szövegutánzata a betuszedo és nyomdaiparnak. A Lorem Ipsum az 1500-as évek óta standard szövegrészletként szolgált az iparban; mikor egy ismeretlen nyomdász összeállított
-						</p>
-						<p>
-							a betukészletét és egy példa-könyvet vagy szöveget nyomott papírra, ezt használta. Nem csak 5 évszázadot élt túl, de az elektronikus betukészleteknél is változatlanul megmaradt. Az 1960-as években népszerusítették a Lorem Ipsum részleteket magukbafoglaló Letraset lapokkal, és legutóbb softwarekkel mint például az Aldus Pagemaker
-						</p>	
-					</li>
-				</ul>
+				{{require sidebar.t}}
 			</div>
 			<div class="span9" id="mainbar">
 				{{if .form.search}}

@@ -1,3 +1,5 @@
 {
-	"hello_text": "Hello belló"
+	"hello_text": "Hello belló",
+	"who_are_we": "Rólunk",
+	"front_desc": "<p>Csapatunk olyan kollégákból áll, akik szakmájuk iránt szenvedélyesek, és hisznek abban, hogy hosszú távon csakis a kölcsönösen előnyös üzlet hoz előrelépést.</p><p>Kíváncsiságunk és tudásszomjunk miatt lépést tartunk a korral, kiaknázzuk a legújabb technológiák adta lehetőségeket.</p><p>Hisszük, hogy az internet és a szoftverek számos iparágot képesek megreformálni.</p>"
 }
