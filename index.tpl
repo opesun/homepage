@@ -83,22 +83,22 @@
 						<p>					
 							Ha szeretné megtalálni az Ön számára ideális konyhabútort, bútort de az előregyártott kész termékek sem méretben sem pedig stílusban nem illenek elképzeléséhez,
 							(nem is beszélve a minőségről és a studiók által kimondott irreális árról!) akkor jó helyen jár!
-							Cégünk teljes mértékben kielégíti az Ön egyedi igényeit a lehető legjobb minőségben és mindezt garantáltan a <strong>legalacsonyabb áron.</strong> 
+							Cégünk teljes mértékben kielégíti az Ön egyedi igényeit a lehető legjobb minőségben és mindezt garantáltan a legalacsonyabb áron. 
 						</p>
 						<p>
-							Az egyedi konyhaszekrények mellett vállaljuk lakóépületek berendezését (előszobafalak, gardrobók, szekrénysorok) illetve üzlethelységek komplett beépítését, köz -és magánintézmények akár <strong>támogatás útján megnyert sztendereinek lebonyolítását</strong> is. 
+							Az egyedi konyhaszekrények mellett vállaljuk lakóépületek berendezését (előszobafalak, gardrobók, szekrénysorok) illetve üzlethelységek komplett beépítését, köz -és magánintézmények akár támogatás útján megnyert sztendereinek lebonyolítását is. 
 						</p>
 						<p>
-							<strong>Sikereinket több tényezőnek köszönhetjük:</strong>
+							Sikereinket több tényezőnek köszönhetjük:
 						</p>
 						<p>
 						Teljes egészébben magyar tulajdonnal bíró, nagy hangsúlyt fektető pontos határidővel dolgozó, kimagasló gyártási minőséggel bíró vállalkozás vagyunk. Nagy hangsúlyt fektetünk alapanyagaink és alkatrészeink kimagasló minőségére.
 						</p>
 						<p>
-							<strong>Termékeinkre 3 év garanciát vállalunk</strong>
+							Termékeinkre 3 év garanciát vállalunk
 						</p>
 						<p>
-							Ha felkeltettük érdeklődést, kérje <strong>ingyenes</strong> árajánlatunkat akár egy 3 dimenziós látványtervvel egybekötve!
+							Ha felkeltettük érdeklődést, kérje ingyenes árajánlatunkat akár egy 3 dimenziós látványtervvel egybekötve!
 						</p>
 					</li>
 				</ul>
