@@ -2,6 +2,9 @@
 <div class="row-fluid">	
 	<ul class="breadcrumb">
 		<li><a class="label label-important" href="/">Home</a> <span class="divider">/</span></li>
+		{{if $contact}}
+			<li><a class="active" href="/contact">Contact</a> <span class="divider">/</span></li>
+		{{end}}
 		{{if $furn}}
 			<li><a class="active" href="/furnitures">Furnitures</a> <span class="divider">/</span></li>
 		{{end}}

@@ -1,5 +1,6 @@
 {{require main_header.t}}
 	{{$furn := false}}
+	{{$contact := false}}
 	{{$title := .main_noun}}
 	{{require small_header.t}}
 	<div id="above-nonmain" class="container">

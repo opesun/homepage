@@ -1,15 +1,18 @@
 
 <div id="adverts">
 	<div class="adv">
-		<h5>Weboldalra van szüksége?</h5>
+		<p>Weboldalra van szüksége?</p>
 		<p>A jelenlegi piacon elengedhetetlen a jó webes megjelenés.</p>
+		
+		<p>You need a web app?</p>
+		<p>We help you make your vision a reality.</p>
 	</div>
 	<div class="adv">
-		<h5>Nyílt forráskód.</h5>
+		<p>Nyílt forráskód.</p>
 		<p>Tekintse meg nyílt forráskodú projektjeinket <a href="https://github.com/opesun" TARGET="_blank">github</a>-on.</p>
 	</div>
 	<div class="adv">
-		<h5>Mivel foglalkozunk még?</h5>
+		<p>Mivel foglalkozunk még?</p>
 		<ul class="unstyled">
 			<li>
 				<a href="/articles?tag=it">IT</a>

@@ -6,13 +6,14 @@
 
 	<div id="above-nonmain" class="container">
 		{{$furn := true}}
+		{{$contact := false}}
 		{{require breadcrumb.t}}
 		<div class="row-fluid">
 			<div class="span3" id="sidebar">
 				{{require sidebar.t}}
 			</div>
 			<div class="span9" id="mainbar">
-				<h5>Tekintse meg referenciáinkat és higgyen a szemének.</h5>
+				<p>Tekintse meg referenciáinkat és higgyen a szemének.</p>
 				<br />
 				<ul class="thumbnails">
 					<li class="span4">

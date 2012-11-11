@@ -46,51 +46,8 @@
 						<!-- Everything you want hidden at 940px or less, place within here -->
 						<div class="button_bar">
 							<div class="btn-group pull-left">
-								<a class="btn dropdown-toggle" data-toggle="dropdown">
-								<strong>Lorem</strong>
-								<span class="caret"></span>
-								</a>
-								<ul class="dropdown-menu">
-									<!-- dropdown menu links -->
-									<li><a><strong>Lorem Ipsum</strong></a></li>
-									<li><a><strong>Lorem Ipsum</strong></a></li>
-									<li><a><strong>Lorem Ipsum</strong></a></li>
-									<li><a><strong>Lorem Ipsum</strong></a></li>
-								</ul>
-							</div>
-							<div class="btn-group pull-left">
-								<a class="btn dropdown-toggle" data-toggle="dropdown">
-								<strong>Lorem</strong>
-								<span class="caret"></span>
-								</a>
-								<ul class="dropdown-menu">
-									<!-- dropdown menu links -->
-									<li><a><strong>Lorem Ipsum</strong></a></li>
-									<li><a><strong>Lorem Ipsum</strong></a></li>
-									<li><a><strong>Lorem Ipsum</strong></a></li>
-									<li><a><strong>Lorem Ipsum</strong></a></li>
-								</ul>
-							</div>
-							<div class="btn-group pull-left">
-								<a class="btn dropdown-toggle" data-toggle="dropdown">
-								<strong>Lorem</strong>
-								<span class="caret"></span>
-								</a>
-								<ul class="dropdown-menu">
-									<!-- dropdown menu links -->
-									<li><a><strong>Lorem Ipsum</strong></a></li>
-								</ul>
-							</div>
-							<div class="btn-group pull-left">
-								<a class="btn dropdown-toggle" data-toggle="dropdown">
-								<strong>Lorem</strong>
-								<span class="caret"></span>
-								</a>
-								<ul class="dropdown-menu">
-									<!-- dropdown menu links -->
-									<li><a><strong>Lorem Ipsum</strong></a></li>
-								</ul>
-							</div>
+								<a href="/contact"><button class="btn">Contact</button></a>
+							</div>	
 						</div>
 						<div class="nav-collapse pull-right">
 							<!-- .nav, .navbar-search, .navbar-form, etc -->

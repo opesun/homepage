@@ -79,27 +79,46 @@
 			<div class="span6">
 				<ul class="thumbnails">
 					<li class="span12">
-						<h4 class="tardfix">Álmai konyháját álom minőséggel megvalósítjuk!</h4>
-						<p>					
-							Ha szeretné megtalálni az Ön számára ideális konyhabútort, bútort de az előregyártott kész termékek sem méretben sem pedig stílusban nem illenek elképzeléséhez,
-							(nem is beszélve a minőségről és a studiók által kimondott irreális árról!) akkor jó helyen jár!
-							Cégünk teljes mértékben kielégíti az Ön egyedi igényeit a lehető legjobb minőségben és mindezt garantáltan a legalacsonyabb áron. 
-						</p>
-						<p>
-							Az egyedi konyhaszekrények mellett vállaljuk lakóépületek berendezését (előszobafalak, gardrobók, szekrénysorok) illetve üzlethelységek komplett beépítését, köz -és magánintézmények akár támogatás útján megnyert sztendereinek lebonyolítását is. 
-						</p>
-						<p>
-							Sikereinket több tényezőnek köszönhetjük:
-						</p>
-						<p>
-						Teljes egészébben magyar tulajdonnal bíró, nagy hangsúlyt fektető pontos határidővel dolgozó, kimagasló gyártási minőséggel bíró vállalkozás vagyunk. Nagy hangsúlyt fektetünk alapanyagaink és alkatrészeink kimagasló minőségére.
-						</p>
-						<p>
-							Termékeinkre 3 év garanciát vállalunk
-						</p>
-						<p>
-							Ha felkeltettük érdeklődést, kérje ingyenes árajánlatunkat akár egy 3 dimenziós látványtervvel egybekötve!
-						</p>
+						{{$lang := elem .langs 0}}
+						{{if eq $lang "hu"}}
+							<h4 class="tardfix">Őrülten jó bútorok, épelméjű árakon</h4>
+							<p>					
+								Ha szeretné megtalálni az Ön számára ideális bútort, de az előregyártott kész termékek sem méretben sem pedig stílusban nem illenek elképzeléséhez,
+								akkor jó helyen jár. A konyhastúdióknál jóval alacsonyabb áron tudjuk kínálni a termékeinket, mivel nekünk nincsenek hatamlas bemutatótermeink,
+								amik üzemeltetési költségét Önre terhelnénk.
+							</p>
+							<p>
+								Az egyedi konyhaszekrények mellett vállaljuk lakóépületek berendezését (előszobafalak, gardrobók, szekrénysorok) illetve üzlethelységek komplett beépítését. Vállaljuk köz -és magánintézmények akár támogatás útján megnyert sztendereinek lebonyolítását is. 
+							</p>
+							<p>
+								Széles ügyfélkörünket a következőknek köszönhetjük:
+							</p>
+							<p>
+								Teljes egészébben magyar tulajdonú, pontos határidővel dolgozó, kimagasló gyártási minőséggel bíró vállalkozás vagyunk. Nagy hangsúlyt fektetünk alapanyagaink és alkatrészeink megfelelőségére.
+							</p>
+							<p>
+								Termékeinkre 3 év garanciát vállalunk
+							</p>
+							<p>
+								Ha felkeltettük érdeklődést, kérje ingyenes árajánlatunkat akár egy 3 dimenziós látványtervvel egybekötve!
+							</p>
+						{{else}}
+							<h4 class="tardfix">Crazy good furnitures, with sane price tags</h4>
+							<p>					
+								If you want to find your ideal furniture, but you don't like the style of premades, or you need special sized ones, you are in a good company.
+								We manufacture custom kitchens, wardrobes, and we can help you dress your whole house or shop.
+								Our manufacturing process takes place in Hungary, so our prices are only a fraction of those you are used to, while still retaining high quality.
+							</p>
+							<p>
+								We acquired a large customerbase because we are precise, cheap, and handle our creation process with utmost care, from the source material to the transport.
+							</p>
+							<p>
+								We provide a 3 years guarantee for all furnitures.
+							</p>
+							<p>
+								We are happy to answer any of your questions. To see some of our previous works, see <a href="">sadasdasd</a>.
+							</p>
+						{{end}}
 					</li>
 				</ul>
 			</div>
