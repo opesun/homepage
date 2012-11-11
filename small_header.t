@@ -1,6 +1,6 @@
 <div class="small-hero">
 	<div class="container">
-		<div class="ribbon right grey"><a href="https://github.com/opesun" >Fork us on GitHub</a></div>
+		<div class="ribbon right grey"><a href="https://github.com/opesun" >{{.loc.ope.fork}}</a></div>
 		<div class="row-fluid">
 			<div class="span12">
 				<div class="row-fluid">

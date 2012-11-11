@@ -13,16 +13,16 @@
 				{{if .form.search}}
 					<div class="row-fluid">
 						<div class="span12">
-								<h4>Your search: "{{.form.search}}"</h4>
+								<h4>{{.loc.ope.your_search}} "{{.form.search}}"</h4>
 								{{if .main1.Count}}
 									<p>
-										{{.main1.Count}} matches.
+										{{.main1.Count}} {{.loc.ope.matches}}
 									</p>
 									<p></p>
 									<form class="search-box" action="/articles" method="get">
 										<div class="input-append">
-											<input id="appendedInputButton" class="span11" name="search" type="text" value="{{.form.search}}">
-											<button class="btn" type="submit">Search</button>
+											<input id="appendedInputButton" class="span10" name="search" type="text" value="{{.form.search}}">
+											<button class="btn" type="submit">{{.loc.ope.search}}</button>
 										</div>
 									</form>
 									</p>
@@ -30,13 +30,13 @@
 										<p></p>
 										<form class="search-box" action="/articles" method="get">
 											<div class="input-append">
-												<input id="appendedInputButton" class="span11" name="search" type="text" value="{{.form.search}}">
-												<button class="btn" type="submit">Search</button>
+												<input id="appendedInputButton" class="span10" name="search" type="text" value="{{.form.search}}">
+												<button class="btn" type="submit">{{.loc.ope.search}}</button>
 											</div>
 										</form>
 										<p></p>
 										<p>
-											Sorry, no matches. Try again.
+											{{.loc.ope.no_matches}}
 										</p>
 								{{end}}
 						</div>
@@ -44,18 +44,23 @@
 				{{end}}
 				<ul class="thumbnails">
 					{{$c := counter}}
-					{{range .main}}
-						<li class="span4 {{if $c.EveryX 3}}tfirst{{end}}">
-							<a href="/articles/{{._id}}" class="thumbnail">
-								<img src="/uploads/articles/{{._id}}/pics/{{.preview}}" alt="">
-							</a>
-							<div class="caption">
-								<h4>{{.title}}</h4>
-								<p class="thumbnail_content" title="{{.content}}">{{.content}}</p>
-								<p><a href="/articles/{{._id}}" class="btn btn-large">more</a></p>
-							</div>
-						</li>
-						{{$c.Inc}}
+					{{$but := .loc.ope.more}}	
+					{{if .main}}
+						{{range .main}}
+							<li class="span4 {{if $c.EveryX 3}}tfirst{{end}}">
+								<a href="/articles/{{._id}}" class="thumbnail">
+									<img src="/uploads/articles/{{._id}}/pics/{{.preview}}" alt="">
+								</a>
+								<div class="caption">
+									<h4>{{.title}}</h4>
+									<p class="thumbnail_content" title="{{.content}}">{{.content}}</p>
+									<p><a href="/articles/{{._id}}" class="btn btn-large">{{$but}}</a></p>
+								</div>
+							</li>
+							{{$c.Inc}}
+						{{end}}
+					{{else}}
+					{{.loc.ope.no_articles}}
 					{{end}}
 				</ul>
 				{{if .main}}

@@ -46,15 +46,15 @@
 						<!-- Everything you want hidden at 940px or less, place within here -->
 						<div class="button_bar">
 							<div class="btn-group pull-left">
-								<a href="/contact"><button class="btn">Contact</button></a>
+								<a href="/contact"><button class="btn">{{.loc.ope.contact}}</button></a>
 							</div>	
 						</div>
 						<div class="nav-collapse pull-right">
 							<!-- .nav, .navbar-search, .navbar-form, etc -->
 							<form class="search-box" action="/articles" method="get">
 								<div class="input-append">
-									<input id="appendedInputButton" name="search" size="16" type="text" placeholder="Keresés az oldalon">
-									<button class="btn" type="submit">Search</button>
+									<input id="appendedInputButton" name="search" size="16" type="text" placeholder="{{.loc.ope.search_in_this_site}}">
+									<button class="btn" type="submit">{{.loc.ope.search}}</button>
 								</div>
 							</form>
 							<div class="clearfix"></div>

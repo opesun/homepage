@@ -12,6 +12,7 @@
 			<div class="span9" id="mainbar">
 				<ul class="thumbnails">
 					<p>
+						{{html .loc.ope.contact_us}}
 					</p>
 				</ul>
 			</div>

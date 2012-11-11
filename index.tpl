@@ -15,11 +15,11 @@
 							<img src="/template/img/it.jpg" alt="">
 						</a>
 						<div class="caption">
-							<h3>IT</h3>
+							<h3>{{.loc.ope.it}}</h3>
 							<p>
-								A Lorem Ipsum egy egyszeru szövegrészlete, szövegutánzata a betuszedo és nyomdaiparnak.
+								{{.loc.ope.it_desc}}
 							</p>
-							<p><a href="/articles?tag=it" class="btn btn-large">tovább</a></p>
+							<p><a href="/articles?tag=it" class="btn btn-large">{{.loc.ope.more}}</a></p>
 						</div>
 					</li>
 					<li class="span4">
@@ -27,11 +27,11 @@
 								<img src="/template/img/carpenter3.jpg" alt="">
 						</a>
 						<div class="caption">
-							<h3>Bútorok</h3>
+							<h3>{{.loc.ope.furniture}}</h3>
 								<p>
-									Cégünk több évtizedes szakmai múltra tekint vissza, a hazai prémium kategóriás bútorgyártás piacán.
+									{{.loc.ope.furniture_desc}}
 								</p>
-							<p><a href="/articles?tag=furnitures" class="btn btn-large">tovább</a></p>
+							<p><a href="/articles?tag=furnitures" class="btn btn-large">{{.loc.ope.more}}</a></p>
 						</div>
 					</li>
 					<li class="span4">
@@ -39,11 +39,11 @@
 								<img src="/template/img/rendezveny3.jpg" alt="">
 						</a>
 						<div class="caption">
-							<h3>Rendezvények</h3>
+							<h3>{{.loc.ope.event}}</h3>
 							<p>
-								A Lorem Ipsum egy egyszeru szövegrészlete, szövegutánzata a betuszedo és nyomdaiparnak.
+								{{.loc.ope.event_desc}}
 							</p>
-							<p><a href="/articles?tag=events" class="btn btn-large">tovább</a></p>
+							<p><a href="/articles?tag=events" class="btn btn-large">{{.loc.ope.more}}</a></p>
 						</div>
 					</li>
 				</ul>
@@ -79,46 +79,7 @@
 			<div class="span6">
 				<ul class="thumbnails">
 					<li class="span12">
-						{{$lang := elem .langs 0}}
-						{{if eq $lang "hu"}}
-							<h4 class="tardfix">Őrülten jó bútorok, épelméjű árakon</h4>
-							<p>					
-								Ha szeretné megtalálni az Ön számára ideális bútort, de az előregyártott kész termékek sem méretben sem pedig stílusban nem illenek elképzeléséhez,
-								akkor jó helyen jár. A konyhastúdióknál jóval alacsonyabb áron tudjuk kínálni a termékeinket, mivel nekünk nincsenek hatamlas bemutatótermeink,
-								amik üzemeltetési költségét Önre terhelnénk.
-							</p>
-							<p>
-								Az egyedi konyhaszekrények mellett vállaljuk lakóépületek berendezését (előszobafalak, gardrobók, szekrénysorok) illetve üzlethelységek komplett beépítését. Vállaljuk köz -és magánintézmények akár támogatás útján megnyert sztendereinek lebonyolítását is. 
-							</p>
-							<p>
-								Széles ügyfélkörünket a következőknek köszönhetjük:
-							</p>
-							<p>
-								Teljes egészébben magyar tulajdonú, pontos határidővel dolgozó, kimagasló gyártási minőséggel bíró vállalkozás vagyunk. Nagy hangsúlyt fektetünk alapanyagaink és alkatrészeink megfelelőségére.
-							</p>
-							<p>
-								Termékeinkre 3 év garanciát vállalunk
-							</p>
-							<p>
-								Ha felkeltettük érdeklődést, kérje ingyenes árajánlatunkat akár egy 3 dimenziós látványtervvel egybekötve!
-							</p>
-						{{else}}
-							<h4 class="tardfix">Crazy good furnitures, with sane price tags</h4>
-							<p>					
-								If you want to find your ideal furniture, but you don't like the style of premades, or you need special sized ones, you are in a good company.
-								We manufacture custom kitchens, wardrobes, and we can help you dress your whole house or shop.
-								Our manufacturing process takes place in Hungary, so our prices are only a fraction of those you are used to, while still retaining high quality.
-							</p>
-							<p>
-								We acquired a large customerbase because we are precise, cheap, and handle our creation process with utmost care, from the source material to the transport.
-							</p>
-							<p>
-								We provide a 3 years guarantee for all furnitures.
-							</p>
-							<p>
-								We are happy to answer any of your questions. To see some of our previous works, see <a href="">sadasdasd</a>.
-							</p>
-						{{end}}
+						{{html .loc.ope.front_desc_2}}
 					</li>
 				</ul>
 			</div>
