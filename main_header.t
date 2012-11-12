@@ -53,7 +53,7 @@
 							<!-- .nav, .navbar-search, .navbar-form, etc -->
 							<form class="search-box" action="/articles" method="get">
 								<div class="input-append">
-									<input id="appendedInputButton" name="search" size="16" type="text" placeholder="{{.loc.ope.search_in_this_site}}">
+									<input id="appendedInputButton" name="search" size="16" type="text" placeholder="{{.loc.ope.click_and_type}}">
 									<button class="btn" type="submit">{{.loc.ope.search}}</button>
 								</div>
 							</form>

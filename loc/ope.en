@@ -3,28 +3,28 @@
 	"front_desc": "<p>Our team consists of people who have a passion for their craft, and believe that only mutually profitable deals bring long time improvement.</p><p>Our curiousity keeps us informed about the latest technological advancements.</p><p>We believe that the internet and softwares has the potential to reform a lot of industries.</p>",
 	"front_desc_2": "<h4 class=\"tardfix\">Crazy good furnitures, with sane price tags</h4><p>If you want to find your ideal furniture, but you don't like the style of premades, or you need special sized ones, you are in a good company. We manufacture custom kitchens, wardrobes, and we can help you dress your whole house or shop. Our manufacturing process takes place in Hungary, so our prices are only a fraction of those you are used to, while still retaining high quality.</p><p>We acquired a large customerbase because we are precise, cheap, and handle our creation process with utmost care, from the source material to the transport.</p><p>We provide a 3 years guarantee for all furnitures.</p><p>We are happy to answer any of your questions. To see some of our previous works, see <a href=\"\">sadasdasd</a>.</p>",
 	"it": "IT",
-		"it_desc": "it_desc!!!!",
-	"furniture": "Furniture",
-		"furniture_desc": "furniture_desc!!!",
-	"event": "Event",
-		"event_desc": "event_desc!!!",
+		"it_desc": "From consultation to implementation we can help you in your IT related needs.",
+	"furniture": "Furnitures",
+		"furniture_desc": "We have more then one decade of experience in manufacturing premium furnitures.",
+	"event": "Events",
+		"event_desc": "We help to give your event a stylish image, and take care of executing it flawlessly.",
 	"more": "more",
 	
 	"contact": "Contact",
 	"search": "Search", 
-	"search_in_this_site": "Search in this site",
+	"click_and_type": "Click here and type",
 	
 	"large_header_desc": "<h3>we love to create, be it <a href=\"/articles?tag=it\">software</a>, <a href=\"/articles?tag=furnitures\">furnitures</a> or <a href=\"articles?tag=events\">experiences</a></h3>",
 	"fork": "Fork us on GitHub",
 	
 	"need_webapp": "<p>You need a web app?</p><p>We help you make your vision a reality.</p>",
-	"opensource": "<p>Opensource</p><p>View our open source projects in <a href=\"https://github.com/opesun\" TARGET=\"_blank\">github</a>.</p>",
-	"activity": "<p>What we do yet?</p><ul class=\"unstyled\"><li><a href=\"/articles?tag=it\">IT</a><p class=\"muted\">???</p></li><li><a href=\"/furnitures\">Furnitures</a><p class=\"muted\">???</p></li><li><a href=\"/articles?tag=events\">Events</a><p class=\"muted\">???</p></li></ul>",
+	"opensource": "<p>Open source</p><p>View our open source projects in <a href=\"https://github.com/opesun\" TARGET=\"_blank\">github</a>.</p>",
+	"activity": "<p>What we do?</p><ul class=\"unstyled\"><li><a href=\"/articles?tag=it\">IT</a></li><li><a href=\"/furnitures\">Furnitures</a></li><li><a href=\"/articles?tag=events\">Events</a></li></ul>",
 	
 	"home": "Home",
 	"articles": "Articles",
 	
-	"contact_us": "E-mail:opesun@yxc <br /> Phone: 6551651656554",
+	"contact_us": "<h2>E-mail</h2> info@opesun.com<br /> <h2>Phone</h2> +36 70 375 40 62",
 	
 	"your_search": "Your search:",
 	"matches": "matches.",

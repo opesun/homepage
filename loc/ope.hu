@@ -3,28 +3,28 @@
 	"front_desc": "<p>Csapatunk olyan kollégákból áll, akik szakmájuk iránt szenvedélyesek, és hisznek abban, hogy hosszú távon csakis a kölcsönösen előnyös üzlet hoz előrelépést.</p><p>Kíváncsiságunk és tudásszomjunk miatt lépést tartunk a korral, kiaknázzuk a legújabb technológiák adta lehetőségeket.</p><p>Hisszük, hogy az internet és a szoftverek számos iparágot képesek megreformálni.</p>",
 	"front_desc_2": "<h4 class=\"tardfix\">Őrülten jó bútorok, épelméjű árakon</h4><p>Ha szeretné megtalálni az Ön számára ideális bútort, de az előregyártott kész termékek sem méretben sem pedig stílusban nem illenek elképzeléséhez, akkor jó helyen jár. A konyhastúdióknál jóval alacsonyabb áron tudjuk kínálni a termékeinket, mivel nekünk nincsenek hatamlas bemutatótermeink, amik üzemeltetési költségét Önre terhelnénk.</p><p>Az egyedi konyhaszekrények mellett vállaljuk lakóépületek berendezését (előszobafalak, gardrobók, szekrénysorok) illetve üzlethelységek komplett beépítését. Vállaljuk köz -és magánintézmények akár támogatás útján megnyert sztendereinek lebonyolítását is. </p><p>Széles ügyfélkörünket a következőknek köszönhetjük:</p><p>Teljes egészébben magyar tulajdonú, pontos határidővel dolgozó, kimagasló gyártási minőséggel bíró vállalkozás vagyunk. Nagy hangsúlyt fektetünk alapanyagaink és alkatrészeink megfelelőségére.</p><p>Termékeinkre 3 év garanciát vállalunk</p><p>Ha felkeltettük érdeklődést, kérje ingyenes árajánlatunkat akár egy 3 dimenziós látványtervvel egybekötve!</p>",
 	"it": "IT",
-		"it_desc": "A Lorem Ipsum egy egyszeru szövegrészlete, szövegutánzata a betuszedo és nyomdaiparnak.",
-	"furniture": "Bútor",
+		"it_desc": "A konzultációtól kezdve a weboldalak és alkalmazások kivitelezéséig mindenben segítségére lehetünk.",
+	"furniture": "Bútorok",
 		"furniture_desc": "Cégünk több évtizedes szakmai múltra tekint vissza, a hazai prémium kategóriás bútorgyártás piacán.",
-	"event": "Rendezvény",
-		"event_desc": "A Lorem Ipsum egy egyszeru szövegrészlete, szövegutánzata a betuszedo és nyomdaiparnak.",
+	"event": "Rendezvények",
+		"event_desc": "Segítünk rendezvényének stílusos látványvilágot adni, és rendben lebonyolítani azt.",
 	"more": "tovább",
 	
 	"contact": "Kapcsolat",
 	"search": "Keresés",
-	"search_in_this_site": "Keresés az oldalon",
+	"click_and_type": "Kereséshez klikk ide",
 	
 	"large_header_desc": "<h3>szeretünk alkotni, legyen az <a href=\"/articles?tag=it\">szoftver</a>, <a href=\"/articles?tag=furnitures\">bútor</a> vagy <a href=\"articles?tag=events\">rendezvény</a></h3>",
 	"fork": "Kövessen GitHub-on",
 	
 	"need_webapp": "<p>Weboldalra van szüksége?</p><p>A jelenlegi piacon elengedhetetlen a jó webes megjelenés.</p>",
 	"opensource": "<p>Nyílt forráskód</p><p>Tekintse meg nyílt forráskodú projektjeinket <a href=\"https://github.com/opesun\" TARGET=\"_blank\">github</a>-on.</p>",
-	"activity": "<p>Mivel foglalkozunk még?</p><ul class=\"unstyled\"><li><a href=\"/articles?tag=it\">IT</a><p class=\"muted\">Informatika Ablaktól Zsiráfig</p></li><li><a href=\"/furnitures\">Bútorok</a><p class=\"muted\">Bútorok széleskörű választéka</p></li><li><a href=\"/articles?tag=events\">Rendezvények</a><p class=\"muted\">Minden ami rendezvény</p></li></ul>",
+	"activity": "<p>Mivel foglalkozunk még?</p><ul class=\"unstyled\"><li><a href=\"/articles?tag=it\">IT</a></li><li><a href=\"/furnitures\">Bútorok</a></li><li><a href=\"/articles?tag=events\">Rendezvények</a></li></ul>",
 	
 	"home": "Főoldal",
 	"articles": "Cikkek",
 	
-	"contact_us": "E-mail:opesun@yxc <br /> Telefon:6551651656554",
+	"contact_us": "<h2>E-mail</h2> info@opesun.com<br /> <h2>Telefon</h2> 06 70 3 6666 80",
 	
 	"your_search": "Keresett kifejezés:",
 	"matches": "találat.",
