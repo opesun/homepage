@@ -57,7 +57,7 @@
 					<!-- Carousel items -->
 					<div class="carousel-inner">
 						{{$c := counter}}
-						{{$sl := get_list "articles" "tag" "slider"}}
+						{{$sl := getList "articles" "tag" "slider"}}
 						{{$list := elem $sl 0}}
 						{{range $list}}
 							{{$id := ._id}}

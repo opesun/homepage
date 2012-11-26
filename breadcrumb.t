@@ -8,7 +8,7 @@
 		{{if $furn}}
 			<li><a class="active" href="/furnitures">{{.loc.ope.furniture}}</a> <span class="divider">/</span></li>
 		{{end}}
-		{{if is_map .main}}
+		{{if isMap .main}}
 			{{if .main.subtag}}
 				<li><a href="/furnitures">{{.loc.ope.furniture}}</a> <span class="divider">/</span></li>
 				<li><a href="/articles?subtag={{.main.subtag}}">{{title .main.subtag}}</a> <span class="divider">/</span></li>

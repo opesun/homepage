@@ -1,0 +1,193 @@
+{
+	"Hooks": {
+		"Inserted": [
+			[
+				"fulltext",
+				"SaveFulltext"
+			]
+		],
+		"ProcessQuery": [
+			"fulltext"
+		],
+		"SanitizerMangler": [
+			"file"
+		],
+		"Updated": [
+			[
+				"fulltext",
+				"SaveFulltext"
+			]
+		],
+		"aabInserted": [],
+		"aabUpdated": [],
+		"articlesInserted": [
+			[
+				"fulltext",
+				"SaveFulltext"
+			]
+		],
+		"articlesUpdated": [
+			[
+				"fulltext",
+				"SaveFulltext"
+			]
+		],
+		"fileTypeHandler": [
+			[
+				"file",
+				"FileTypeHandler"
+			]
+		],
+		"fkidTypeHandler": [
+			"fkid"
+		]
+	},
+	"Template": "opesun",
+	"TplIsPrivate": true,
+	"canonicalHost": "127.0.0.1:6061",
+	"defaultLevel": 300,
+	"fileTypeHandler": [
+		[
+			"file",
+			"FileTypeHandler"
+		]
+	],
+	"nouns": {
+		"aaaab": {
+			"composedOf": [
+				"asdasd"
+			]
+		},
+		"aaab": {
+			"composedOf": [
+				"jsonedit"
+			]
+		},
+		"aab": {
+			"composedOf": [
+				"jsonedit"
+			]
+		},
+		"articles": {
+			"composedOf": [
+				"file",
+				"fulltext"
+			],
+			"verbs": {
+				"DeleteFile": {
+					"input": {
+						"file": 1,
+						"key": 1
+					}
+				},
+				"Get": {
+					"level": 0
+				},
+				"GetSingle": {
+					"level": 0
+				},
+				"Insert": {
+					"input": {
+						"big_pics": {
+							"ignore": true,
+							"type": "file"
+						},
+						"content": 1,
+						"pics": {
+							"ignore": true,
+							"type": "file"
+						},
+						"preview": 1,
+						"sliderpics": {
+							"ignore": true,
+							"type": "file"
+						},
+						"subtag": 1,
+						"subtitle": 1,
+						"tag": 1,
+						"title": 1
+					}
+				},
+				"Update": {
+					"input": {
+						"big_pics": {
+							"ignore": true,
+							"type": "file"
+						},
+						"content": 1,
+						"pics": {
+							"ignore": true,
+							"type": "file"
+						},
+						"preview": 1,
+						"sliderpics": {
+							"ignore": true,
+							"type": "file"
+						},
+						"subtag": 1,
+						"subtitle": 1,
+						"tag": 1,
+						"title": 1
+					}
+				}
+			}
+		},
+		"options": {
+			"composedOf": [
+				"jsonedit"
+			]
+		},
+		"terminal": {
+			"composedOf": [
+				"terminal"
+			],
+			"verbs": {
+				"Execute": {
+					"input": {
+						"script": 1
+					}
+				}
+			}
+		},
+		"users": {
+			"composedOf": [
+				"jsonedit",
+				"users"
+			],
+			"verbs": {
+				"Insert": {
+					"input": {
+						"name": 1,
+						"password": 1
+					},
+					"level": 300
+				},
+				"InsertAdmin": {
+					"input": {
+						"name": 1,
+						"password": 1
+					},
+					"level": 0
+				},
+				"Login": {
+					"input": {
+						"name": 1,
+						"password": 1
+					},
+					"level": 0
+				},
+				"LoginForm": {
+					"level": 0
+				},
+				"NewAdmin": {
+					"level": 0
+				}
+			}
+		},
+		"whatever": {
+			"composedOf": [
+				"ws_example"
+			]
+		}
+	}
+}
